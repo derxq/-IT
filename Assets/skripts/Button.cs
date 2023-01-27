@@ -8,8 +8,11 @@ public void ButtorPlay()
     {
         SceneManager.LoadScene(1);
     }
-    
 
-    
-    
+
+    public void ButtorEXIT()
+    {
+        Application.Quit();
+    }
+
 }
