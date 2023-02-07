@@ -60,6 +60,7 @@
     <Compile Include="Assets\collor2.cs" />
     <Compile Include="Assets\skripts\camera.cs" />
     <Compile Include="Assets\skripts\Button.cs" />
+    <Compile Include="Assets\skripts\F2ndLevel.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
