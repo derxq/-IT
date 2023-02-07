@@ -12,7 +12,7 @@ public void ButtorPlay()
 
     public void ButtorEXIT()
     {
-        Application.Quit();
+        Application.лемч();
     }
 
 }
