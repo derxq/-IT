@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class TextG : MonoBehaviour
+public class rtrtreter : MonoBehaviour
 {
     public Text TextGameObject;
     private string text;
