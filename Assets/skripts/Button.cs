@@ -12,7 +12,7 @@ public void ButtorPlay()
 
     public void ButtorEXIT()
     {
-        SceneManager.LoadScene(1);
+        Application.Quit();
     }
 
 }

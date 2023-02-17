@@ -58,10 +58,11 @@
   <ItemGroup>
     <Compile Include="Assets\skripts\controler.cs" />
     <Compile Include="Assets\skripts\collor2.cs" />
+    <Compile Include="Assets\skripts\TextG.cs" />
+    <Compile Include="Assets\skripts\rtrtreter.cs" />
     <Compile Include="Assets\skripts\camera.cs" />
     <Compile Include="Assets\skripts\F2ndLevel.cs" />
     <Compile Include="Assets\skripts\Button.cs" />
-    <Compile Include="Assets\skripts\rtrtreter.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
