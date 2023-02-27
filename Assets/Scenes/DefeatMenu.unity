@@ -152,7 +152,7 @@ RectTransform:
   m_GameObject: {fileID: 177115188}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 5.3144, y: 1.3149, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1372731758}
@@ -161,7 +161,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -2, y: -10}
+  m_AnchoredPosition: {x: 34, y: -25.07}
   m_SizeDelta: {x: 108.7998, y: 41.6363}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &177115190
@@ -204,7 +204,7 @@ MonoBehaviour:
     m_SelectedTrigger: Selected
     m_DisabledTrigger: Disabled
   m_Interactable: 1
-  m_TargetGraphic: {fileID: 0}
+  m_TargetGraphic: {fileID: 177115191}
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
