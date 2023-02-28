@@ -210,7 +210,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 177115193}
         m_TargetAssemblyTypeName: Button, Assembly-CSharp
-        m_MethodName: ButtorPlay
+        m_MethodName: ButtonPlay
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

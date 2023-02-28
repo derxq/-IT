@@ -4,13 +4,13 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 public class Button : MonoBehaviour
 {
-public void ButtorPlay()
+public void ButtonPlay()
     {
         SceneManager.LoadScene(1);
     }
 
 
-    public void ButtorEXIT()
+    public void ButtonEXIT()
     {
         Application.Quit();
     }
