@@ -15,4 +15,8 @@ public void ButtonPlay()
         Application.Quit();
     }
 
+    public void ButtonMENU()
+    {
+        SceneManager.LoadScene("MainMenu");
+    }
 }
