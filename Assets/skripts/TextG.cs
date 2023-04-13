@@ -26,6 +26,7 @@ public class TextG : MonoBehaviour
         }
 
 
+     if (fadeOut.activeSelf == false)
         fadeOut.SetActive(true);          
      
      }
