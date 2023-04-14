@@ -2,11 +2,12 @@ using UnityEngine;
 
 public class controler : MonoBehaviour
 {
-    public float speed = 5f;
-
+    public float speed_Move = 5f;
+    public float speed_Run;
+    public float speed_Current;
     public CharacterController CharacterController;
 
-    Vector3 move;
+    Vector3 move_Direction;
 
     Vector3 velocity;
 
@@ -25,8 +26,18 @@ public class controler : MonoBehaviour
         float horizontal = Input.GetAxis("Horizontal");
         float vertical = Input.GetAxis("Vertical");
 
-        move = transform.right * horizontal + transform.forward * vertical;
-        CharacterController.Move(move * speed * Time.deltaTime);
+        move_Direction = transform.right * horizontal + transform.forward * vertical;
+        if(Input.GetKey(KeyCode.LeftShift))
+        {
+            speed_Current = speed_Run;
+        }
+        else
+        {
+            speed_Current = speed_Move;
+        }
+
+        
+        CharacterController.Move(move_Direction * speed_Current * Time.deltaTime);
         
         velocity.y += gravity * Time.deltaTime;
         CharacterController.Move(velocity * Time.deltaTime);
