@@ -67,7 +67,7 @@ Transform:
   - {fileID: 9013252495246646140}
   - {fileID: 9013252494227894336}
   m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 82.901, z: 0}
 --- !u!33 &9013252494381722182
 MeshFilter:
@@ -149,7 +149,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 922141d3569191c4da1cbb899a3bdce5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 5
+  speed_Move: 5
+  speed_Run: 10
+  speed_Current: 0
   CharacterController: {fileID: 9013252494381722180}
   gravity: -22
   groundCheck: {fileID: 9013252494227894336}
