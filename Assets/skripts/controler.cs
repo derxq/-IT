@@ -2,6 +2,7 @@ using UnityEngine;
 
 public class controler : MonoBehaviour
 {
+    public int hearth = 5;
     public float speed_Move = 5f;
     public float speed_Run = 10f;
     private float speed_Current = 5f;
