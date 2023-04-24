@@ -6,6 +6,8 @@ using UnityEngine.UI;
 public class TextG : MonoBehaviour
 {
     public Text TextGameObject;
+    public GameObject fadeOut;
+
     private string text;
 
     private void Start()
@@ -22,9 +24,10 @@ public class TextG : MonoBehaviour
             yield return new WaitForSeconds(0.05f)
            ;
         }
-                
-                
-                
+
+
+     if (fadeOut.activeSelf == false)
+        fadeOut.SetActive(true);          
      
      }
     
