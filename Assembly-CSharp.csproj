@@ -64,6 +64,7 @@
     <Compile Include="Assets\skripts\camera.cs" />
     <Compile Include="Assets\skripts\F2ndLevel.cs" />
     <Compile Include="Assets\skripts\Button.cs" />
+    <Compile Include="Assets\skripts\kartuna.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
