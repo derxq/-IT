@@ -654,7 +654,7 @@ GameObject:
   - component: {fileID: 241967506}
   - component: {fileID: 241967510}
   m_Layer: 0
-  m_Name: Cube (9)
+  m_Name: "\u0414\u044B\u0440\u043A\u0430 \u0432 \u043F\u043E\u043B\u0443"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3930,6 +3930,51 @@ PrefabInstance:
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: e2d0b71880f10f042bc21c1ae3679463, type: 3}
+--- !u!1 &1222476974
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1222476976}
+  - component: {fileID: 1222476975}
+  m_Layer: 0
+  m_Name: "\u0414\u044B\u0440\u0430 \u0432 \u043F\u043E\u043B\u0443"
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!65 &1222476975
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1222476974}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!4 &1222476976
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1222476974}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 2.59, y: 0.334, z: 7.493}
+  m_LocalScale: {x: 0.5075121, y: 0.11403797, z: 0.5075121}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 77
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1274820822
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7806,6 +7851,10 @@ PrefabInstance:
     - target: {fileID: 9013252494381722179, guid: 37b8b9feebb68da4b89e64bbd838d8b2, type: 3}
       propertyPath: m_Name
       value: igrok
+      objectReference: {fileID: 0}
+    - target: {fileID: 9013252494381722179, guid: 37b8b9feebb68da4b89e64bbd838d8b2, type: 3}
+      propertyPath: m_TagString
+      value: Player
       objectReference: {fileID: 0}
     - target: {fileID: 9013252494381722183, guid: 37b8b9feebb68da4b89e64bbd838d8b2, type: 3}
       propertyPath: m_RootOrder
