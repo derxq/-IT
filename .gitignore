@@ -2,3 +2,8 @@
 /Library
 /obj
 /bin
+/Build
+/Temp
+Assembly-CSharp.csproj
+/.vs
+-IT.sln
