@@ -7,6 +7,21 @@ public class F2ndLevel : MonoBehaviour
 {
     private void OnTriggerEnter(Collider other)
     {
-        SceneManager.LoadScene("2ndLevel");
+        // запускаем звук крика
+        AudioClip hitSound;
+    }
+
+    void OnCollisionEnter(Collision Col)
+    {
+        if (Col.gameObject.name == "Ground")
+        {
+
+            gameObject.audio.clip = hitSound;
+        }
+            // запускаем звук ломающихся досок
+
+
+
+            SceneManager.LoadScene("2ndLevel");
     }
 }
