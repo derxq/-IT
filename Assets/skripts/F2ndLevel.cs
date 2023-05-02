@@ -16,7 +16,7 @@ public class F2ndLevel : MonoBehaviour
         //if (Col.gameObject.name == "Ground")
         //{
 
-            //gameObject.GetComponent<AudioSource>().clip = hitSound;
+        //    gameObject.GetComponent<AudioSource>().clip = hitSound;
         //}
             // ��������� ���� ���������� �����
 
