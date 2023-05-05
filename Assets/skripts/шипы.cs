@@ -9,7 +9,7 @@ public class шипы : MonoBehaviour
     {
         if (other.tag == "Player")
         SceneManager.LoadScene("DefeatMenu");
-
-        
+        AudioSource audio = GetComponent<AudioSource>();
+        audio.Play();
      }
 }
