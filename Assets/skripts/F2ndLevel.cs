@@ -9,6 +9,7 @@ public class F2ndLevel : MonoBehaviour
     {
         // ��������� ���� �����
         //AudioClip hitSound;
+        SceneManager.LoadScene("2ndLevel");
     }
 
     void OnCollisionEnter(Collision Col)
@@ -22,6 +23,5 @@ public class F2ndLevel : MonoBehaviour
 
 
 
-            SceneManager.LoadScene("2ndLevel");
     }
 }
