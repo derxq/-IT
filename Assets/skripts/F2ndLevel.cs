@@ -1,27 +1,37 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
 public class F2ndLevel : MonoBehaviour
 {
+    public GameObject fadePanel;
+
+    GameObject player;
+    bool isFalling = false;
+
+
+
     private void OnTriggerEnter(Collider other)
     {
-        // ��������� ���� �����
-        //AudioClip hitSound;
+        var sound = GetComponent<AudioSource>();
+        sound.Play();
+
+        fadePanel.SetActive(true);
+        player = GameObject.Find("igrok");
+        isFalling = true;
+        Invoke("LoadNextScene", 2.5f);
+    }
+
+    void LoadNextScene()
+    {
         SceneManager.LoadScene("2ndLevel");
     }
 
-    void OnCollisionEnter(Collision Col)
+    private void Update()
     {
-        //if (Col.gameObject.name == "Ground")
-        //{
-
-        //    gameObject.GetComponent<AudioSource>().clip = hitSound;
-        //}
-            // ��������� ���� ���������� �����
-
-
-
+        if (isFalling)
+            player.transform.Translate(new Vector3(player.transform.position.x, player.transform.position.y + 15, player.transform.position.z));
     }
 }
